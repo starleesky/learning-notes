@@ -6,28 +6,26 @@
 
 ## 📚 笔记分类
 
-- 🤖 **AI 技术** - 大模型、Agent、Prompt 工程
-- 💻 **开发技能** - 编程语言、框架、工具
-- 🏛️ **架构设计** - 系统设计、设计模式
-- 📊 **数据科学** - 数据分析、机器学习
-- 🔐 **安全实践** - 安全编码、隐私保护
+- 🤖 **AI Agents** - 大模型、Agent、Prompt 工程
+- 💻 **Claude Code** - Claude Code 使用技巧和最佳实践
+- 📝 **Prompts** - Prompt 模板和技巧
+- 🛠️ **Tools** - 开发工具、效率工具
+- 🏛️ **Architecture** - 系统设计、设计模式
 
 ---
 
-## 📝 笔记格式
+## 📅 最近更新
 
-```
-category/
-├── topic-name.md     # 主题笔记
-└── resources.md      # 参考资料
-```
+| 日期 | 标题 | 分类 | 来源 |
+|------|------|------|------|
+| 2026-03-19 | Claude Code 使用技巧 | Claude Code | [GitHub](https://github.com/ykdojo/claude-code-tips) |
 
 ---
 
 ## 🔗 相关链接
 
-- [AI Skill Bench](https://github.com/starleesky/ai-skill-bench)
-- [Agent Skills](https://github.com/starleesky/agent-skills)
+- [AI Skill Bench](https://github.com/starleesky/ai-skill-bench) - AI 模型测试基准
+- [Agent Skills](https://github.com/starleesky/agent-skills) - AI Agent 技能集合
 
 ---
 

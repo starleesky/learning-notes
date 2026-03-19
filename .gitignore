@@ -1,0 +1,21 @@
+# 敏感文件忽略列表
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+
+# 私人笔记（如有）
+*.private.md
+personal/
