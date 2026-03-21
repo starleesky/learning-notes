@@ -101,6 +101,8 @@ npm install -g @jackwener/opencli
 | `opencli arxiv search` | ✅ 成功 | 返回 10 条论文结果 |
 | `opencli hackernews top` | ✅ 成功 | 返回 HN 热榜 |
 | `opencli list` | ✅ 成功 | 列出 50+ 预置 CLI |
+| `opencli twitter article` | ✅ 成功 | 抓取推文完整内容 |
+| `opencli bilibili hot` | ✅ 成功 | 返回 B 站热门 Top 20 |
 
 ### 测试记录
 
@@ -130,6 +132,22 @@ $ opencli hackernews top
 $ opencli list
 ```
 ✅ 输出结构化列表，AI 可自动发现
+
+**5. B 站热门视频（2026-03-21 10:28）**
+```bash
+$ opencli bilibili hot
+```
+✅ 成功返回 Top 20 热门视频
+
+**部分结果：**
+| 排名 | 标题 | UP 主 | 播放量 |
+|------|------|------|--------|
+| 15 | 失传术法？五行铠甲真正该有的战斗方式！ | 啦啦啦的 G 君 | 40.8 万 |
+| 16 | 什么样的绝世猛男，才能终结吃人的五代十国！ | 海棠家的大肥鱼 | 474 万 |
+| 17 | "苦涩的沙 吹痛脸庞的感觉" | 我爱吃派大星 | 169 万 |
+| 20 | 我们对妙瓦底园区执行侦查 | 大漠叔叔 | 126 万 |
+
+**输出格式：** 表格化，包含排名、标题、UP 主、播放量、评论数
 
 ---
 
