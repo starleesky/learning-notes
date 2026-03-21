@@ -91,37 +91,45 @@ npm install -g @jackwener/opencli
 
 ---
 
-## 🧪 实践测试
+## 🧪 实践测试（2026-03-21）
 
-### 1. 查看可用命令
+### 测试结果
 
+| 测试项 | 状态 | 说明 |
+|--------|------|------|
+| `opencli doctor` | ⚠️ 部分通过 | Daemon 未运行（自动启动） |
+| `opencli arxiv search` | ✅ 成功 | 返回 10 条论文结果 |
+| `opencli hackernews top` | ✅ 成功 | 返回 HN 热榜 |
+| `opencli list` | ✅ 成功 | 列出 50+ 预置 CLI |
+
+### 测试记录
+
+**1. 诊断连接**
 ```bash
-opencli list
+$ opencli doctor
+[MISSING] Daemon: not running
+[MISSING] Extension: not connected
+[SKIP] Connectivity: not tested (use --live)
 ```
+→ Daemon 会在运行浏览器命令时自动启动
 
-**输出格式：** YAML 结构，AI 可自动发现
-
-### 2. 探索新网站
-
+**2. arXiv 论文搜索**
 ```bash
-opencli explore https://example.com
+$ opencli arxiv search "large language models"
 ```
+✅ 成功返回 10 条论文，包含标题、作者、发布日期
 
-**功能：**
-- 自动发现网站 API
-- 识别数据存储位置
-- 推荐 CLI 实现策略
-
-### 3. 诊断连接
-
+**3. Hacker News 热榜**
 ```bash
-opencli doctor
+$ opencli hackernews top
 ```
+✅ 成功返回热榜文章（排名、标题、分数、评论数）
 
-**检查项：**
-- 浏览器桥接连接状态
-- CDP（Chrome DevTools Protocol）可用性
-- 会话复用状态
+**4. 查看可用命令**
+```bash
+$ opencli list
+```
+✅ 输出结构化列表，AI 可自动发现
 
 ---
 
