@@ -114,14 +114,69 @@
 
 ## 🦞 OpenClaw 生态
 
-【技能更新】
-- ✅ **每日简报技能优化**：改用 MCP WebSearch，解决超时问题
-- ✅ **link-to-notes 技能**：自动保存用户分享的链接到 learning-notes
-- 📊 **技能统计**：65 个技能 (54 系统 + 11 工作区)，4 个已优化 (6%)
+### 官方动态
 
-【今日任务】
-- 保存中国独立开发者项目列表到 learning-notes
-- 修复每日简报定时任务超时问题
+| 项目 | Stars | 说明 |
+|------|-------|------|
+| [openclaw/openclaw](https://github.com/openclaw/openclaw) | 16.7K | 主项目 - 个人 AI 助手 |
+| [openclaw/skills](https://github.com/openclaw/skills) | 6.6K | 官方技能仓库 |
+| [clawdbot/clawdbot](https://github.com/clawdbot/clawdbot) | 14.5K | 前身项目 |
+
+**最新版本:** v2026.3.13 (2026-03-14)
+- 🔐 安全修复：WebSocket 源验证强制实施
+- 🐛 Bug 修复：文件操作、cron 任务、网关稳定性
+- ✨ 新功能：Cortex 本地记忆系统集成
+
+### ClawHub 技能市场
+
+**数据统计:**
+- **收录技能:** 1,715+ 款 (官方 ClawHub)
+- **归档技能:** 13,729 款 (全量归档)
+- **精选技能:** 5,400+ 款 (VoltAgent 精选)
+- **分类:** 31 个类别
+
+**热门分类:**
+1. 📝 办公效率 - 文档处理、邮件管理、日历调度
+2. 💻 开发工具 - 代码生成、Git 操作、CI/CD
+3. 🎨 内容创作 - 文案撰写、社交媒体、翻译
+4. 📊 数据处理 - 数据分析、可视化、报表生成
+5. 🔍 搜索研究 - Web 搜索、文献检索、信息聚合
+
+### 社区热点
+
+**GitHub 讨论焦点:**
+- #44481 - 修复 tool_use_id 不匹配导致的无限重试循环 ✅ 已合并
+- #44363 - 增强 cron 任务执行可靠性 🔄 进行中
+- #44421 - 集成 Cortex 本地记忆系统 🔄 进行中
+- #43941 - 修复沙箱清理后磁盘泄漏 ✅ 已合并
+
+**中文社区动态:**
+- [awesome-openclaw-tutorial](https://github.com/xianyu110/awesome-openclaw-tutorial) - 最全面中文教程
+- [OpenCray](https://github.com/CrayBotAGI/OpenCray) - 中文版，接入钉钉/QQ/微信
+- [awesome-moltbot-skills](https://github.com/VoltAgent/awesome-moltbot-skills) - 5,400+ 精选技能
+
+### 本地技能统计
+
+```
+系统技能：54 个
+工作区技能：11 个
+总计：65 个技能
+已优化：4 个 (6%)
+今日新增：0 个
+```
+
+**本工作区技能:**
+- ✅ daily-briefing (每日简报)
+- ✅ daily-learning (每日学习)
+- ✅ link-to-notes (链接转笔记)
+- ✅ multi-agent-coordinator (多 Agent 协作)
+- ✅ auto-progress-report (自动进度汇报)
+- ✅ task-executor (任务自主执行器)
+- ✅ progress-tracker (进度追踪器)
+- ✅ task-orchestrator (任务编排系统)
+- ✅ auto-reporter (自动汇报器)
+- ✅ github-trending (GitHub 热点)
+- ✅ twitter-digest (Twitter 日报)
 
 ---
 
